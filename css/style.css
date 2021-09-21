@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Orbitron&display=swap');
+
+body{
+    background: #000;
+}
+.fecha{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.hora{
+    font-family: 'Londrina Sketch', cursive;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+/* efecto neon */
+
+.relojVerde{
+    text-shadow: 0 0 5px #7bffce,
+    0 0 10px #7bffce,
+    0 0 20px #7bffce,
+    0 0 40px #7bffce;
+}
+
+.relojRosa{
+    text-shadow: 0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac;
+}
+
+.relojCeleste{
+    text-shadow: 0 0 5px #7bacff,
+    0 0 10px #7bacff,
+    0 0 20px #7bacff,
+    0 0 40px #7bacff;
+}
+
+/* estilos de botones */
+
+.btn-verde{
+    background: #7bffce;
+}
+
+.btn-rosa{
+background: #ff7bac;
+}
+
+.btn-celeste{
+    background: #7bacff;
+}
